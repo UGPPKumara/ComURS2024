@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+.pannel-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* background-color: aqua; */
+  width: min(1065px, 90%);
+  margin: 0 auto;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 96px 32px;
+}
+
+.pannel-row{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.pannel-row h2 {
+  width: 40%;
+  font-weight: 700;
+  font-size: 26px;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  /* background-color: #ffc000; */
+}
+
+.pannel-row p {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+}
+
+@media (max-width: 768px) {
+
+
+  .pannel-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .pannel-row p {
+    font-size: 14px;
+  }
+  .pannel-row h2 {
+    font-size: 18px;
+    width: 100%;
+  }
+  .pannel-container{
+    padding: 20px 18px;
+  }
+}

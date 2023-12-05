@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.bg{
+    background-image: url(bgImg.jpg);
+    color: #52B788;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+}
+
+.banner{
+    width: 100%;
+    background-position: center;
+    background-size: center;
+}
+.navbar{
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+    background: transparent;
+}
+.logo{
+    float: left;
+    width: 170px;
+    margin-top: 2px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    padding-left: 10px;
+    background-color: yellow;
+    margin-left: 80px;
+    border-radius: 15px;
+}
+.navbar::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.navbar ul{
+    float: right;
+    list-style: none;
+    margin-right: 250px;
+    position: relative;
+}
+.navbar ul li {
+    float: none;
+    display: inline-block;
+    background: transparent;
+    margin: 0px 20px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+    font-weight: 450;
+    font-size: 18px;
+    padding: 4px 10px;
+    margin: 0;
+}
+.navbar ul li a:hover {
+    color: orange;
+    border-radius: 5px;
+    box-shadow: 0 0 5px cyan,
+                0 0 5px #52B788;
+}
+.navbar ul ul {
+    position: absolute;
+    top: 90px;
+    border-top: 3px solid cyan;
+    opacity: 0;
+    visibility: hidden;
+    transition:top .3s ;
+}
+.navbar ul li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+.navbar ul ul li{
+    position: relative;
+    width: 250px;
+    float: none;
+    display: list-item;
+}
+.navbar ul ul li a{
+    font-size: 18px;
+    line-height: 45px;
+}
+.navbar ul ul li a:hover{
+    color: orange;
+    box-shadow: none;
+}
+
+
+.show,.icon , input{
+    display: none;
+} 
+
+.box-imp_date{
+    border: 4px solid #004a3d ;
+    /* background: #83d78370; */
+    width: fit-content;
+    margin: 120px auto;
+    padding: 50px;
+    color: #ffc000;
+    border-radius: 10px;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold ;
+}
+.fix{
+    background-image:url(bg-img.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 30px;
+}
+.dt{
+    width: 500px;
+    margin: 50px auto 20px ;
+    text-align: justify;
+    font-size: 20px;
+}
+.dt ul{
+    list-style: disc;
+}
+.dt ul ul{
+    list-style: square;
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    width: 100%;
+    background-color: #034646;
+    background-size: 100%;
+    padding: 60px 10%;
+}
+
+.foot ul{
+    list-style: none;
+   
+}
+.footer-col ul{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+.footer-col{
+    width: 33.3%;
+
+}
+
+.footer-col h4{
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #f1bc0d;
+    text-transform: capitalize;
+}
+.footer-col p {
+    color: white;
+}
+.footer-col a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: #27c0ac;
+    height: 2px;
+    width: 40px;
+}
+
+.foot ul li:not(:last-child){
+    margin-bottom: 8px;
+}
+
+.foot ul li a{
+    display: block;
+    font-size: 19px;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.foot ul li a:hover{
+    color: white;
+    padding-left: 2px;
+}
+
+.foot .links a{
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    color: white;
+    background-color: rgba(40, 130, 214, 0.8);
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.foot .links a:hover{
+    color: #4d4f55;
+    background-color: white;
+}
+@media all and (max-width:968px) {
+    .navbar ul{
+        margin-right: 0;
+        float: left;
+    } 
+    .navbar .logo{
+        padding-left: 30px;
+    }
+    
+    .navbar ul li, .navbar ul ul li{
+        display: inline-block;
+        width: 100%;
+        float: none;
+    }
+    .navbar ul ul {
+        top: 70px;
+        position: static;
+        border-top: none;
+        float: none;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    } 
+    .navbar ul ul a{
+        padding: 40px;
+    }   
+    .navbar ul ul li{
+        border-bottom: 0px;
+    }
+
+    .show{
+        display: block;
+        color: #004a3d;
+        font-size: 18px;
+        padding: 0 20px;
+        line-height: 70px;
+        cursor: pointer;
+    }
+    .show:hover{
+        color: cyan;
+    }
+    .icon{
+        display: block;
+        color: white;
+        position:absolute;
+        right: 40px;
+        line-height: 70px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .navbar > ul li a:hover{
+        box-shadow: none;
+    }
+    .show + a, .navbar ul{
+        display: none;
+    }
+    [id^=btn]:checked+ul{
+        display: block;
+    }
+    [id^=btn]:checked + .content{
+        visibility:hidden;
+    }
+    .dt{
+        width: 500px;
+        margin: auto ;
+        text-align: justify;
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 740px){
+    .fix{
+        background-size: cover;
+        padding: 30px;
+    }
+    .box-imp_date{
+        border: 4px solid #004a3d ;
+        background: #83d78370;
+        width: fit-content;
+        margin: 30 pxauto;
+        padding: 20px;
+        color: #ffc000;
+        border-radius: 8px;
+        font-size: 30px;
+    }
+    .footer-col{
+        width: 100%;
+        margin-bottom: 30px;
+        text-align:center;
+    }
+
+    .footer-col h4::before{
+        all: unset;
+    }
+    
+}
+@media(max-width: 555px){
+    .footer-col{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.timeline-img{
+    background-image: url(bgImg.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-block: 60px;
+}
