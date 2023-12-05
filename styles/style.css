@@ -240,20 +240,18 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .countdown-block {
-/* display: -webkit-box; */
-/* display: -ms-flexbox; */
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
 justify-content: center;
-/* -webkit-box-orient: vertical; */
-/* -webkit-box-direction: normal; */
-    /* -ms-flex-flow: column nowrap; */
-        /* flex-flow: column nowrap; */
-/* -webkit-box-align: center; */
-    /* -ms-flex-align: center; */
-        /* align-items: center; */
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 /* margin-right: 100px; */
-flex-direction: column;
-align-items: center;
 }
 .countdown-block:last-child {
 margin-right: 0;
@@ -303,7 +301,7 @@ right: 0;
 
 .top {
 z-index: 3;
-/* background-color: #ffc000; */
+background-color: #ffc000;
 -webkit-transform-origin: 50% 100%;
         transform-origin: 50% 100%;
 -webkit-transform: perspective(200px);
@@ -841,9 +839,8 @@ footer{
     .time-elem {
         height: 66px;
         width: 70px;
-        /* font-size: 4.5em; */
-        /* line-height: 66px; */
-        line-height: 1.5;
+        font-size: 4.5em;
+        line-height: 66px;
         margin-bottom: 17px;
     }
     .fixed .list li{
