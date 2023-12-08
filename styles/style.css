@@ -533,7 +533,7 @@ h1, h2{
 
 }
 .sabra img{
-    width: min(500px,80%);
+    width: min(250px,80%);
 }
 footer{
     display: flex;
