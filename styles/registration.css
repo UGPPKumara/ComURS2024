@@ -47,3 +47,27 @@ a{
 a:hover{
   color: #ffc000;
 }
+
+
+@media(max-width: 555px){
+  a{
+    font-size: 18px;
+  }
+  th{
+    font-size: 11px;
+  }
+  td{
+    font-size: 11px;
+  }
+  .registration-container p{
+    text-align: center;
+    font-size: 12px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  table{
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+  }
+}

@@ -138,9 +138,7 @@ a:hover{
 }
 
 
-@media screen and (max-width: 768px){
 
-}
 @media(max-width: 555px){
   .contact-container{
     flex-direction: column;
