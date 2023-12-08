@@ -8,22 +8,15 @@
   
     <link rel="stylesheet" href="styles/guidelines.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/contact.css">
         <!-- font links -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600%2C700"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue%3A400"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A600"/>
+
         <!--font awesome link-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
-        <style>
-            div.scroll
-            {
-            Width :5px;
-            Height:10px;
-            Overflow-x:scroll;
-            }
-        </style>
       
 </head>
 <body>
@@ -55,9 +48,10 @@
                         <input type="checkbox" id="btn-2">
                         <ul>
                             <li><a href="ad_panel.html">Advisory Panel</a></li>
-                            <li><a href="organizingCommitee.html">Organizing Committee</a></li>
+                            <li><a href="#">Organizing Committee</a></li>
                         </ul>
                     </li>
+
                     <li><a href="contact.html">Contact</a></li>
 
                 </ul>
@@ -65,8 +59,8 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
-                        <div class=" rounded-4 d-inline-block p-5 heading" style="color: #004a3d ; border:4px solid #ffc000 ; margin:80px 0px; font-weight: bold; font-size: 60px; font-family: 'Quicksand', sans-serif;">
-                            Important Dates
+                        <div class=" rounded-4 d-inline-block p-5 heading " style="color: #004a3d; border:4px solid #ffc000; margin:80px 0px; font-weight: bold; font-size: 60px; font-family: 'Quicksand', sans-serif;">
+                          Contact
                         </div>
                     </div>
                 </div>
@@ -77,93 +71,60 @@
         
     </div>
 
-    <div class="timeline-img">
-      <div id="timeline" >
-        <div class="timeline-item">
-            <div class="timeline-icon">
-                
+<!-- Conatct  -->
+    <div class="contact-container">
+        
+            <div class="contact-tp">
+                <div class="contact-email">
+                    <p class="con-left">Address:</p>
+                    <p class="tp">Faculty of Computing,<br>
+                        Sabaragamuwa University of Sri Lanka,<br>
+                        P.O. Box 02,<br>
+                        Belihuloya,<br>
+                        70140,<br>
+                        Sri Lanka.</p>
+                </div>
+                <div class="contact-email">
+                    <p class="con-left">Email:</p>
+                    <p><a href="mailto:info@comurs.sab.ac.lk">info@comurs.sab.ac.lk </a><br>
+                    <a href="mailto:chair@ comurs.sab.ac.lk">chair@ comurs.sab.ac.lk</a> <br>
+                    <a href="mailto:secretary comurs.sab.ac.lk">secretary comurs.sab.ac.lk</a></p>
+                </div>
+                <div class="contact-email">
+                    <p class="con-left">Phone:</p>
+                    <p class="tp">+94 (045) 22 80015</p>
+                </div>
             </div>
-            <div class="timeline-content">
-                <h2 >05<sup>th</sup> December 2023</h2>
-                <p>
-                    Paper Submission Open
-                </p>
-                
+
+        
+        <div class="form-container">
+            <form method="post" action="mailto:prasannapushpakumaracampus@gmail.com" id="form" class="validate" enctype="text/plain">
+              <div class="form-field">
+                <label for="full-name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Name" required />
+              </div>
+              <div class="form-field">
+                <label for="email-input">Email</label>
+                <input type="email" name="email-input" id="email-input" placeholder="Email" required />
+              </div>
+              <div class="form-field">
+                <label for="msg-input">Message</label>
+                <textarea name="Message" id="msg-input" cols="20" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="form-field form-submit">
+                <label for="msg -submit"></label>
+                <input type="submit" value="Submit" class="button" />
+              </div>
+            </form>
             </div>
-        </div>
-        <div class="timeline-item">
-            <div class="timeline-icon">
-                
-            </div>
-            <div class="timeline-content right">
-                <h2>31<sup>st</sup> December 2023</h2>
-                <p>
-                    Paper Submission Deadline
-                </p>
-                
-            </div>
-        </div>
-        <div class="timeline-item">
-            <div class="timeline-icon">
-                
-            </div>
-            <div class="timeline-content">
-                <h2 >22<sup>nd</sup> January 2024</h2>
-                <p>
-                    Paper Acceptance Notification
-                </p>
-                
-            </div>
-        </div>
-        <div class="timeline-item">
-            <div class="timeline-icon">
-                
-            </div>
-            <div class="timeline-content right">
-                <h2 >01<sup>st</sup> February 2024</h2>
-                <p>
-                    Camera Ready Submission Deadline
-                </p>
-                
-            </div>
-        </div>
-        <div class="timeline-item">
-            <div class="timeline-icon">
-                
-            </div>
-            <div class="timeline-content">
-                <h2 >05<sup>th</sup> February 2024</h2>
-                <p>
-                    Early Bird Registration
-                </p>
-                
-            </div>
-        </div>
-        <div class="timeline-item">
-            <div class="timeline-icon">
-                
-            </div>
-            <div class="timeline-content right">
-                <h2 >10<sup>th</sup> February 2024</h2>
-                <p>
-                    Late Registration
-                </p>
-                
-            </div>
-        </div>
-        <div class="timeline-item">
-            <div class="timeline-icon">
-                
-            </div>
-            <div class="timeline-content">
-                <h2 >23<sup>rd</sup> February 2024</h2>
-                <p>
-                    Symposium
-                </p>
-                
-            </div>
-        </div>
     </div>
+
+    <div class="map">
+        <h1> Location</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.44056002384!2d80.78708547499465!3d6.715968993279894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae38b417d8c4f07%3A0x8e107536a6ae802!2sFaculty%20of%20Computing%20-%20Sabaragamuwa%20University%20of%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1702022856047!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
    
 <!-- footer  -->
 <footer class="foot">
@@ -185,11 +146,11 @@
             <!-- <li><a href="#">Registration</a></li> -->
             <!-- <li><a href="#">Speaker</a></li> -->
             <li><a href="#">Committee</a></li>
-            <!-- <li><a href="#">Contact us</a></li> -->
+            <!-- <li><a href="#">Contact</a></li> -->
         </ul>
     </div>
     <div class="footer-col">
-        <h4>Contact us</h4>
+        <h4>Contact</h4>
         <ul class="footer-ul">
             <li><a href="chair@comurs.sab.ac.lk">chair@comurs.sab.ac.lk</a></li>
             <li><a href="secretary comurs.sab.ac.lk  ">secretary@comurs.sab.ac.lk  </a></li>
@@ -199,10 +160,8 @@
 </footer>
    
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <script src="./script.js"></script> 
 
 </body>
 </html>
