@@ -33,7 +33,7 @@
 .con-left{
   font-size: 24px;
 }
-p{
+.contact-email p{
   text-align: left;
   font-weight: 700;
   color: black;
@@ -50,7 +50,7 @@ a:hover{
   font-weight: 700;
 }
 .tp{
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 
@@ -154,6 +154,7 @@ a:hover{
   }
   p{
     font-size: 14px;
+    
   }
   .map{
     padding: 0;
