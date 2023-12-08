@@ -82,6 +82,7 @@ a:hover{
   width: 90%;
   padding: 0.4rem;
   box-sizing: border-box;
+  border-radius: 10px;
   font-size: 18px;
   font-family: 'Quicksand', sans-serif;
 }
@@ -92,14 +93,13 @@ a:hover{
 }
 .form-field input {
   border: 2px solid #c9c9c9;
-  border-radius: 2px;
   background-color: #f1f1f1;
   display: flex !important;
 }
 
 .form-field textarea{
   border: 2px solid #c9c9c9;
-  border-radius: 2px;
+  border-radius: 10px;
   background-color: #f1f1f1;
 }
 .form-submit input {
@@ -133,6 +133,8 @@ a:hover{
 }
 .map iframe{
   width: 90%;
+  border-radius: 10px;
+
 }
 
 
@@ -144,6 +146,8 @@ a:hover{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    padding: 0;
+    padding-top: 20px;
   }
   .con-left{
     font-size: 18px;
@@ -153,8 +157,16 @@ a:hover{
   }
   .map{
     padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .form-field label, .form-field input, .form-field textarea {
     font-size: 14px;
+  }
+  #form{
+    padding: 1rem;
+  }
+  .form-container{
+    height: auto;
   }
 }
