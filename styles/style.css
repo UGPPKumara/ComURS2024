@@ -457,6 +457,7 @@ h1, h2{
 .sub-btn a:hover{
     background-color:transparent;
     border: 2px solid #ffc000;
+    transition-duration: 200ms;
 }
 
 #timeline{
