@@ -1,0 +1,34 @@
+.technical-committee{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 40px;
+}
+h6{
+  font-size: 2rem;
+  font-weight: 600;
+  color: #004a3d;
+}
+.tech{
+  padding-top: 20px;
+}
+p{
+  font-size: 1.2rem;
+  color: #007bff;
+}
+p:hover{
+  color: #004a3d;
+  cursor: pointer;
+}
+
+@media (max-width:768px){
+  .technical-committee{
+    padding: 20px;
+  }
+  h6{
+    font-size: 1.2rem;
+  }
+  p{
+    font-size: 0.8rem;
+  }
+}
