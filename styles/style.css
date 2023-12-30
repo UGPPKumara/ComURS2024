@@ -431,12 +431,12 @@ h1, h2{
 }
 
 .sub-btn{
-    margin: 0 80px;
+    /* margin: 0 80px; */
     display: flex;
     flex-direction: center;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 40px 0;
 }
 
 .sub-btn a{
@@ -528,6 +528,10 @@ h1, h2{
     font-weight: 500;
     border-radius: 3px 3px 0 0;
     background-color: var(--primary-clr);
+}
+
+#timeline .timeline-item .timeline-content .extend{
+    color: red;
 }
 #timeline .timeline-item .timeline-content::before{
     content: " ";
@@ -688,14 +692,16 @@ footer{
     .sub-btn a{
         width: 200px;
         height: 60px;
-        padding: 10px;
-        font-size: 20px;
+        padding: 15px;
+        font-size: 18px;
     }
 
     .head {
         font-size: 32px;
     }
 }
+
+
 @media screen and (max-width: 768px){
     #timeline{
         margin: 30px;
@@ -892,7 +898,7 @@ footer{
         font-size: 18px;
     }
     #timeline .timeline-item p{
-        font-size: 14px;
+        font-size: 16px;
     }
 
     
