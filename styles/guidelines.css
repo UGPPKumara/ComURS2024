@@ -131,6 +131,15 @@ footer h4{
    
     height: 750px !important;
  }
+ .guid input[type="checkbox"]:checked + .label4 {
+   
+  height: 365px !important;
+}
+.guid input[type="checkbox"]:checked + .label3 {
+   
+  height: 200px !important;
+}
+
  .guid input[type="checkbox"]:checked + .rev-lable {
    
     height: 440px !important;
