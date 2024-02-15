@@ -70,4 +70,11 @@ a:hover{
     margin-top: 10px !important;
     margin-bottom: 10px;
   }
+  #reg-btn a{
+    font-size: 11px;
+    width: 150px;
+    height: 45px;
+    padding: 9px;
+  }
 }
+
