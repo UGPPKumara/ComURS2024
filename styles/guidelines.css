@@ -123,7 +123,7 @@ footer h4{
     display: block;
     background: rgba(255,255,255,255) !important;
     color: #000000;
-    height: 225px;
+    height: 300px;
     transition: height 0.8s;
     -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
